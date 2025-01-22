@@ -1,0 +1,2 @@
+my @array = (1, 2, 3);for my $i (0..$#array) {  print "Value at index $i: $array[$i]
+";}This code will work correctly. However, if you try to access an index outside the bounds of the array, you'll encounter an error. For example, if you try to access $array[3], it will result in an undefined value.This can lead to unexpected behavior and errors in your program.  It's crucial to ensure that you only access valid indices within the array's bounds.
