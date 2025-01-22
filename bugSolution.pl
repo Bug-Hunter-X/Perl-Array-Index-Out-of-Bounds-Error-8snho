@@ -1,0 +1,2 @@
+my @array = (1, 2, 3);for my $i (0..$#array) {  if ($i < @array) {      print "Value at index $i: $array[$i]
+  } else {      print "Index $i is out of bounds\n";  }}This corrected code includes a check to ensure the index is within the bounds of the array before accessing the element. This prevents the out-of-bounds error and handles the case gracefully.
